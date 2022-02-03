@@ -15,7 +15,7 @@ body{
 }
 
 header{
-    width: 100vw;
+    width: 100%;
     height: 450px;
     font-size: 14px;
     background-color: rgb(49, 97, 224);
@@ -61,6 +61,10 @@ li a:hover{
     margin: 15px 15px;
 }
 
+.btn:hover{
+    color: blue;
+}
+
 .bottom-header{
     width: 100%;
     height: 390px;
@@ -81,8 +85,8 @@ li a:hover{
 .content h1{
     color: white;
     font-size: 40px;
-    margin-top: 70px;
-    margin-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 .content p{
@@ -118,4 +122,220 @@ li a:hover{
     background-color: rgb(26, 25, 25);
     color: white;
 }
+
+.download:hover{
+    transform: scale(1.1);
+}
+
+.browser-app:hover{
+    transform: scale(1.1);
+}
+
+section{
+    width: 80%;
+    margin: 0% 10%;
+}
+
+.aside{
+    height: 500px;
+    line-height: 60px;
+    /*border: 2px dashed black;*/
+}
+
+.aside > .article{
+    width: 50%;
+    height: 500px;
+    float: left;
+    /*border: 2px dashed black;*/
+}
+
+.image img{
+    width: 100%;
+    height: auto;
+    transform: translate(0%, 20%);
+}
+
+.info h2{
+    font-size: 38px;
+    line-height: 45px; 
+    padding-top: 80px;  
+}
+
+.info p{
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.info h2, p{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.big-image{
+    height: 650px;
+    /*border: 2px dashed black;*/
+}
+
+.orizontal-article, 
+.orizontal-image{
+    width: 100%;
+    /*border: 2px dashed black;*/
+}
+
+.orizontal-article{
+    height: 150px;
+    text-align: center;    
+}
+
+.orizontal-article h2{
+    font-size: 38px;
+}
+
+.orizontal-article p{
+    font-size: 15px;
+    padding-top: 15px;
+}
+
+.orizontal-image{
+    height: 500px;
+    background-image: url(../img/item4-big.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bottom-download{
+    height: 200px;
+    text-align: center;
+    /*border: 2px dashed black;*/
+}
+
+.bottom-download h3{
+    font-size: 25px;
+    margin-top: 100px;
+    padding: 8px;
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bottom-mac{
+    width: 15%;
+    margin: 30px 40% 0px;
+    background-color: rgb(122, 133, 236);
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.bottom-mac > a{
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-mac:hover{
+    transform: scale(1.1);
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(37, 37, 37);
+    /*border: 2px dashed black;*/
+}
+
+.top-footer{
+    width: 80%;
+    height: 300px;
+    margin: 0px 10%;
+    border-bottom: 1px solid white;
+    /*border: 2px dashed white;*/
+}
+
+.top-footer .credits{
+    height: 300px;
+    float: left;
+    /*border: 2px dashed white;*/
+}
+
+.credits{
+    width: 30%;
+    padding: 0px 50px;
+}
+
+h4{
+    font-size: 20px;
+    padding-top: 30px;
+    color: rgb(122, 133, 236);
+}
+
+.ita{
+    width: 20px;
+    height: auto;
+    padding-top: 20px;
+    display: inline-block;
+}
+
+.lingua{
+    color: white;
+    font-size: 12px;
+    width: 40px;
+}
+
+.lingua::after{
+    content: "\030C";
+    color: white;
+    margin-left: 10px;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+.product, 
+.company, 
+.resources, 
+.norm{
+    width: 17.5%;
+}
+
+.credits li{
+    list-style: none;
+}
+
+.link-utili{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.bottom-footer{
+    width: 80%;
+    height: 100px;
+    margin: 0px 10%;
+    padding-top: 10px;
+    /*border: 2px dashed white;*/
+}
+
+.bottom-logo{
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.registrati{
+    float: right;
+    margin-top: 15px;
+    margin-right: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(122, 133, 236);
+}
+
+.registrati:hover{
+    color: blue;
+}
+
+
 
